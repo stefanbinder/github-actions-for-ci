@@ -3,7 +3,7 @@ on: pull_request_review
 
 jobs:
   labelWhenApproved:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Label when approved
